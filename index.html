@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Portfolio • Your Name</title>
+    <link rel="stylesheet" href="JS-CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">YourName</h1>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Languages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-btn"><i class="fas fa-moon"></i></button>
+        </div>
+    </nav>
+
+    <!-- Floating Hero Cube -->
+    <div class="hero-cube"></div>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-inner fade-up">
+            <h1 class="hero-title">
+                Crafting <span>Interactive</span> & <span>3D Modern</span> Experiences
+            </h1>
+            <p class="hero-sub">Frontend Developer • Python & Java Enthusiast • Creative Builder</p>
+            <button id="hireBtn" class="primary-btn">Let’s Work Together</button>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about fade-section">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <p>I build modern 3D websites and applications with HTML, CSS, JavaScript, Python, Java, and C++. I focus on interactive designs, neon effects, and immersive 3D experiences.</p>
+        </div>
+    </section>
+
+   <!-- Languages Section -->
+<section id="projects" class="section projects fade-section">
+    <div class="section-header">
+        <h2>Languages & Frameworks</h2>
+        <p>Languages & technologies I use for development</p>
+    </div>
+
+    <div class="language-grid">
+        <div class="language-card tilt">
+            <i class="fab fa-html5 fa-3x"></i>
+            <h3>HTML</h3>
+        </div>
+        <div class="language-card tilt">
+            <i class="fab fa-css3-alt fa-3x"></i>
+            <h3>CSS</h3>
+        </div>
+        <div class="language-card tilt">
+            <i class="fab fa-js-square fa-3x"></i>
+            <h3>JavaScript</h3>
+        </div>
+        <div class="language-card tilt">
+            <i class="fab fa-python fa-3x"></i>
+            <h3>Python</h3>
+        </div>
+        <div class="language-card tilt">
+            <i class="fab fa-java fa-3x"></i>
+            <h3>Java</h3>
+        </div>
+        <div class="language-card tilt">
+            <i class="fas fa-code fa-3x"></i>
+            <h3>C++</h3>
+        </div>
+        <!-- New technologies -->
+        <div class="language-card tilt">
+            <i class="fas fa-server fa-3x"></i>
+            <h3>Laravel</h3>
+        </div>
+        <div class="language-card tilt">
+            <i class="fas fa-bolt fa-3x"></i>
+            <h3>Livewire</h3>
+        </div>
+        <div class="language-card tilt">
+            <i class="fas fa-magic fa-3x"></i>
+            <h3>Preline UI</h3>
+        </div>
+        <div class="language-card tilt">
+            <i class="fab fa-css3-alt fa-3x"></i>
+            <h3>Tailwind CSS</h3>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact fade-section">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email Address" />
+            <textarea placeholder="Message"></textarea>
+            <button type="submit" class="primary-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">© 2025 YourName — All Rights Reserved</footer>
+
+    <script src="JS-CSS/app.js"></script>
+</body>
+
+</html>
